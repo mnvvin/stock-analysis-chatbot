@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #1f2937; /* Dark Gray background for the body */
+  color: #f3f4f6;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Base styles for the "tailwind-like" classes used in App.jsx */
+.text-black { color: #000000; }
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.h-screen { height: 100vh; }
+.bg-gray-900 { background-color: #111827; }
+.text-gray-100 { color: #f3f4f6; }
+.p-4 { padding: 1rem; }
+.sm\:p-6 { padding: 1.5rem; }
+.font-sans { font-family: sans-serif; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.rounded-xl { border-radius: 0.75rem; }
+.shadow-lg { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
+.mb-4 { margin-bottom: 1rem; }
+.text-green-400 { color: #4ade80; }
+.w-8 { width: 2rem; }
+.h-8 { height: 2rem; }
+.mr-3 { margin-right: 0.75rem; }
+.font-bold { font-weight: 700; }
+.tracking-tight { letter-spacing: -0.025em; }
+.flex-grow { flex-grow: 1; }
+.overflow-y-auto { overflow-y: auto; }
+.space-y-4 > * + * { margin-top: 1rem; }
+.bg-gray-800 { background-color: #1f2937; }
+.shadow-inner { box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06); }
+/* ... many other styles are defined inline in App.jsx but these base styles help */
