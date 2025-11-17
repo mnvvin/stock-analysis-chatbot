@@ -1,4 +1,4 @@
-# 📈 Alpha Analyst: Stock Analysis Chatbot
+# 📈 Stock Analysis Chatbot
 
 This is a professional, full-stack stock analysis chatbot designed for scalability and maintainability. It is built using **FastAPI** (Python backend) and **React** (Frontend), strictly following **Clean Architecture** and **Domain-Driven Design (DDD)** principles.
 
